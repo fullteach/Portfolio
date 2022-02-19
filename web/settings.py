@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-wmz7i0m#^^kf-%q%^2pxiu7%j)s&5lwhst1&&_ytoat-r-*@nt
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['142.93.96.137','behzodasliddinov.uz','www.behzodasliddinov.uz']
 
 
 # Application definition
@@ -129,9 +129,4 @@ STATICFILES_DIRS=[
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL='media/'
 MEDIA_ROOT='media'
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'behzodpy@gmail.com'
-EMAIL_HOST_PASSWORD = 'Behzod2305'
-EMAIL_USE_TLS = True
-EMAIL_PORT = 587
+
